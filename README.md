@@ -39,7 +39,7 @@ Google LLC, **Cartoon Set**; componentes artísticos de Shiraz Fuman. Datos bajo
 
 ## Uso de asistentes de IA
 
-Codex se utilizó para interpretar requisitos, buscar fuentes, planificar, programar y revisar los notebooks, preparar herramientas de reproducción y ayudar al análisis. El equipo debe comprender y verificar el código y sus conclusiones. Ninguna imagen de la galería procede de un generador externo.
+Codex se utilizó para interpretar requisitos, buscar fuentes, planificar, programar y revisar los notebooks, preparar herramientas de reproducción y ayudar al análisis. Ninguna imagen de la galería procede de un generador externo.
 
 ## Entrega
 
