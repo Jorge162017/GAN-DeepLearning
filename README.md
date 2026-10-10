@@ -46,3 +46,7 @@ Codex se utilizó para interpretar requisitos, buscar fuentes, planificar, progr
 Repositorio: https://github.com/Jorge162017/GAN-DeepLearning. Canvas requiere código fuente, galería y `presentacion.pdf` de máximo 12 diapositivas más anexos opcionales. Los pesos del generador están incluidos (aproximadamente 14 MB). No hace falta publicar el dataset ni todos los checkpoints. El PDF aún no está creado.
 
 Verificación adicional local: CPU con PyTorch 2.13.0 regeneró 9 PNG exactamente y el ID024 con diferencia máxima de 1 nivel de intensidad. Evidencia: `results/galeria_final/evidencias/regeneracion_cpu.json`. En T4/PyTorch 2.11.0+cu130 los 10 fueron idénticos, según `regeneracion.json`.
+
+## Presentación
+
+`presentacion.pdf`: 12 diapositivas, con universo, arquitectura, controles, hipótesis, resultados reales, tres evidencias obligatorias, galería, tasa de selección, reproducción, reflexión y matriz final. Integrantes: Jorge López 221038 y Ángel Herrarte 22873. Diseño vectorial generado con `scripts/build_presentation.py` (requiere PyMuPDF). Nombres y roles narrativos se proponen en la diapositiva 8.
