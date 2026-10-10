@@ -1,0 +1,127 @@
+{
+  "status": "selected_after_visual_review",
+  "ids": [
+    3,
+    5,
+    7,
+    13,
+    16,
+    24,
+    40,
+    93,
+    120,
+    163
+  ],
+  "selected_count": 10,
+  "generated_count": 200,
+  "selection_rate": 0.05,
+  "criteria": "Recognizable faces, fewer artifacts, differences in multiple traits, visual nearest-neighbor review",
+  "pool_metadata": {
+    "identity": {
+      "run": "stability_lr_d",
+      "epoch": 15,
+      "checkpoint_sha256": "3f175aba1ffee61545156011781f39a80552168d8e560430c8384af22e363a65",
+      "pool_seed": 7070,
+      "count": 200,
+      "generation_batch_size": 32
+    },
+    "checkpoint": "/content/drive/MyDrive/PuertoPrisma/runs/stability_lr_d/checkpoint_epoch_015.pt",
+    "choice_reason": "Elegimos la \u00e9poca 15 del experimento con menor tasa de aprendizaje de D por su equilibrio visual entre rostros reconocibles y variedad de rasgos. Persisten artefactos y algunas similitudes entre personajes; la originalidad se evaluar\u00e1 mediante vecinos cercanos.",
+    "torch_version": "2.11.0+cu130",
+    "latent_dim": 100,
+    "features": 64,
+    "source": "Google LLC, Cartoon Set, CC BY 4.0",
+    "generated_count": 200,
+    "selected_count": 0,
+    "selection_status": "pending",
+    "neighbors_method": {
+      "model": "ResNet18",
+      "weights": "IMAGENET1K_V1",
+      "feature_dim": 512,
+      "metric": "cosine_distance",
+      "training_images": 10000,
+      "torchvision_version": "0.26.0+cu130",
+      "limitation": "ImageNet domain differs from cartoons; visual inspection required"
+    },
+    "data_sha256": "2f3f7a30b55fb9753ba530e44808ff05aad67291de1b9d402ad5fe7063d2bc2d"
+  },
+  "neighbors": [
+    {
+      "candidate_id": 3,
+      "candidate_file": "candidates/candidate_003.png",
+      "nearest_training_file": "cs10928317148112287936.png",
+      "cosine_similarity": 0.7339892387390137,
+      "cosine_distance": 0.26601076126098633
+    },
+    {
+      "candidate_id": 5,
+      "candidate_file": "candidates/candidate_005.png",
+      "nearest_training_file": "cs11168223410612700146.png",
+      "cosine_similarity": 0.6597185134887695,
+      "cosine_distance": 0.34028148651123047
+    },
+    {
+      "candidate_id": 7,
+      "candidate_file": "candidates/candidate_007.png",
+      "nearest_training_file": "cs10835598498592086028.png",
+      "cosine_similarity": 0.7117208242416382,
+      "cosine_distance": 0.2882791757583618
+    },
+    {
+      "candidate_id": 13,
+      "candidate_file": "candidates/candidate_013.png",
+      "nearest_training_file": "cs11007890006067574169.png",
+      "cosine_similarity": 0.7367334365844727,
+      "cosine_distance": 0.26326656341552734
+    },
+    {
+      "candidate_id": 16,
+      "candidate_file": "candidates/candidate_016.png",
+      "nearest_training_file": "cs11007890006067574169.png",
+      "cosine_similarity": 0.6926459074020386,
+      "cosine_distance": 0.3073540925979614
+    },
+    {
+      "candidate_id": 24,
+      "candidate_file": "candidates/candidate_024.png",
+      "nearest_training_file": "cs10339066059746446375.png",
+      "cosine_similarity": 0.708581805229187,
+      "cosine_distance": 0.291418194770813
+    },
+    {
+      "candidate_id": 40,
+      "candidate_file": "candidates/candidate_040.png",
+      "nearest_training_file": "cs10984111884502797053.png",
+      "cosine_similarity": 0.6952577829360962,
+      "cosine_distance": 0.3047422170639038
+    },
+    {
+      "candidate_id": 93,
+      "candidate_file": "candidates/candidate_093.png",
+      "nearest_training_file": "cs10339066059746446375.png",
+      "cosine_similarity": 0.6501429080963135,
+      "cosine_distance": 0.3498570919036865
+    },
+    {
+      "candidate_id": 120,
+      "candidate_file": "candidates/candidate_120.png",
+      "nearest_training_file": "cs11007890006067574169.png",
+      "cosine_similarity": 0.7217744588851929,
+      "cosine_distance": 0.27822554111480713
+    },
+    {
+      "candidate_id": 163,
+      "candidate_file": "candidates/candidate_163.png",
+      "nearest_training_file": "cs11043428665153090717.png",
+      "cosine_similarity": 0.6902366876602173,
+      "cosine_distance": 0.3097633123397827
+    }
+  ],
+  "verification": {
+    "max_pixel_error": 0,
+    "exact_match": true,
+    "method": "Same saved vectors, weights and original batch size 32",
+    "torch_version": "2.11.0+cu130"
+  },
+  "limitations": "ImageNet features do not certify novelty; repeated archetypes and image artifacts remain. ID128 was replaced by ID013 for greater visual diversity."
+}

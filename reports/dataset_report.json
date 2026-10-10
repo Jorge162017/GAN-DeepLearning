@@ -1,0 +1,59 @@
+{
+  "source": "https://google.github.io/cartoonset/download.html",
+  "download_mirror": "https://huggingface.co/datasets/cgarciae/cartoonset/resolve/1.0.0/data/cartoonset10k.tgz",
+  "license": "CC BY 4.0",
+  "count": 10000,
+  "original_sizes": {
+    "(500, 500)": 10000
+  },
+  "original_modes": {
+    "RGBA": 10000
+  },
+  "prepared_size": [
+    64,
+    64
+  ],
+  "prepared_mode": "RGB",
+  "duplicate_images_at_64": 0,
+  "archive_sha256": "902145ad5096af10ca9ee200b648e2a60e8b6b83dd2f4dc5356817988be8ff43",
+  "seed": 2026,
+  "preprocessing": "White alpha composite, preserve aspect ratio, centered padding, Lanczos resize; no augmentation",
+  "preview_files": [
+    "data/raw/cartoonset10k/cs1030393398913434442.png",
+    "data/raw/cartoonset10k/cs10792707066315115137.png",
+    "data/raw/cartoonset10k/cs11243872103305979180.png",
+    "data/raw/cartoonset10k/cs11267157359603501996.png",
+    "data/raw/cartoonset10k/cs10259440077573390966.png",
+    "data/raw/cartoonset10k/cs10550752646875792815.png",
+    "data/raw/cartoonset10k/cs1148261706771784342.png",
+    "data/raw/cartoonset10k/cs11378977659664051265.png",
+    "data/raw/cartoonset10k/cs11042125660304102281.png",
+    "data/raw/cartoonset10k/cs1141843305173203631.png",
+    "data/raw/cartoonset10k/cs11357905410422520891.png",
+    "data/raw/cartoonset10k/cs1121552274730091230.png",
+    "data/raw/cartoonset10k/cs11450460273810860778.png",
+    "data/raw/cartoonset10k/cs11089812256293676164.png",
+    "data/raw/cartoonset10k/cs10592951267631099079.png",
+    "data/raw/cartoonset10k/cs10005067115145416813.png",
+    "data/raw/cartoonset10k/cs10205104157914338504.png",
+    "data/raw/cartoonset10k/cs10283506413628956105.png",
+    "data/raw/cartoonset10k/cs10713835263312951868.png",
+    "data/raw/cartoonset10k/cs1024972788170385050.png",
+    "data/raw/cartoonset10k/cs11109697687709376641.png",
+    "data/raw/cartoonset10k/cs10028724206874831297.png",
+    "data/raw/cartoonset10k/cs11214235224751269484.png",
+    "data/raw/cartoonset10k/cs10779135658134411600.png",
+    "data/raw/cartoonset10k/cs10519202991532731332.png",
+    "data/raw/cartoonset10k/cs10982842553383756077.png",
+    "data/raw/cartoonset10k/cs10623280124833208380.png",
+    "data/raw/cartoonset10k/cs10859496604366431649.png",
+    "data/raw/cartoonset10k/cs10879828169857725647.png",
+    "data/raw/cartoonset10k/cs10927702624458744935.png",
+    "data/raw/cartoonset10k/cs11272138057846993497.png",
+    "data/raw/cartoonset10k/cs10194036060662466829.png",
+    "data/raw/cartoonset10k/cs10843296019872911324.png",
+    "data/raw/cartoonset10k/cs10227333836813328941.png",
+    "data/raw/cartoonset10k/cs11380568546339099320.png",
+    "data/raw/cartoonset10k/cs11335259860972911145.png"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "max_pixel_error": 0,
+  "exact_match": true,
+  "method": "Same saved vectors, weights and original batch size 32",
+  "torch_version": "2.11.0+cu130"
+}

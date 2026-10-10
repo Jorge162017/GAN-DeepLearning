@@ -1,0 +1,6 @@
+{
+  "hypothesis": "Creemos que usar 0.9 como etiqueta de las im\u00e1genes reales mejorar\u00e1 la calidad visual porque reduce el incentivo de D a producir confianza extrema para los datos reales. Lo consideraremos \u00fatil si las rejillas de ruido fijo muestran menos artefactos y mantienen rostros distintos respecto a la base, sin una p\u00e9rdida persistente de estructura.",
+  "change": "Solo cambia la etiqueta de las im\u00e1genes reales en la BCE de D: 1.0 \u2192 0.9. Las falsas conservan 0.0 y G conserva 1.0. No se modifica arquitectura ni tasa de aprendizaje.",
+  "baseline": "base_bce",
+  "status": "written_before_training"
+}
